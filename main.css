@@ -1,0 +1,141 @@
+body 
+{ 
+	text-align: center;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 75%;
+	font-size: 12px;
+	background: #cacaFF;
+}
+
+a 
+{ 
+	text-decoration: none; 
+	color: #000; 
+}
+	
+a:hover 
+{
+	color: #000; 
+}
+
+p { line-height: 22px; margin: 0 0 22px; color:#666; }
+
+h1 { font-size: 44px; font-weight: normal; margin-bottom: 30px;}
+h2 { font-size: 14px; font-weight: normal; margin-bottom: 2px; color: #333; }
+h3 { font-size: 14px; font-weight: bolder; margin-bottom: 10px; color: #333; }
+h4 { font-size: 18px; font-weight: normal; float: left; margin: 3px 0 10px; width: 460px; }
+
+
+#wrapper 
+{
+  width: 60em; /* 852px = 71em + 108px = 9em == 960px */
+  padding: 0 0 3em;
+  padding-top: 3em;
+  padding-left: .5em;
+  margin: 0 auto;
+  color: #3a3a3a;
+  background: #fff;
+  text-align: center;  
+  font-size: 1em;
+	  line-height: 150%;
+ 
+	-moz-border-radius: 10px 10px 10px 10px;
+	-moz-box-shadow: 0 1px 1px #000;
+}
+
+#header
+{
+  height: 198px;
+  height: 162px;
+  background: #ffffff;
+	background: url("images/logo.png") no-repeat;
+  margin: 0 0 4.5em;
+}
+
+#right 
+{ 
+	width: 260px; 
+	float: right; 
+	border-left: 1px solid #ccc; 
+	padding-left: 36px; 
+	margin-right: 25px; 
+	display: inline; 
+}
+
+#overlay
+{
+	/*background: url("taboo/images/hover-overlay.png") repeat 0 0 transparent;*/
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+
+#details
+{
+	background-color: beige;
+	color: forestgreen;
+	height: 300px;
+	width: 360px;
+	margin: -200px auto auto;
+	overflow: visible;
+	position: relative;
+	top: 60%;
+	z-index: 2;
+}
+
+#overlay-close
+{
+	background: none repeat scroll 0 0 #222;
+	color: Lime;
+	padding: 4px 12px;
+	position: absolute;
+	right: 41%;
+	top: 92%;
+	z-index: 2;
+}
+
+#message_input
+{
+	color: Lime;
+	z-index: 2;
+	position: absolute;
+	top: 80%;
+	left: 41%;
+	width: 20%;
+}
+
+pre {
+	text-align: left;
+}
+
+#logout {
+	text-align: left;
+}
+
+#tbl {
+	padding-left: 46px;
+}
+
+#new {
+	width: 200px;
+	padding-right: 20px;
+	float: right;
+}
+
+#logout {
+	padding-left: 50px;
+	padding-right: 60px;
+}
+
+#user_logged {
+	text-align: left;
+	padding-left: 24px;
+}
+
+#timestamp {
+	margin-left: 250px;
+}
